@@ -1,0 +1,9 @@
+﻿global using Polly;
+global using Polly.Retry;
+global using Renci.SshNet;
+global using Renci.SshNet.Sftp;
+global using ScpWorker;
+global using ScpWorker.Configurations;
+global using ScpWorker.Services;
+global using ScpWorker.Services.Mail;
+global using System.Reflection;

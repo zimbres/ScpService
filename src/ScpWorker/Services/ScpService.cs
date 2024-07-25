@@ -33,7 +33,7 @@ public class ScpService : IScpService
         }
     }
 
-    public IEnumerable<SftpFile> ListAllFiles(string remoteDirectory = ".")
+    public IEnumerable<ISftpFile> ListAllFiles(string remoteDirectory = ".")
     {
         try
         {
